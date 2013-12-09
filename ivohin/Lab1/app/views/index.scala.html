@@ -1,0 +1,26 @@
+@(message: String)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Лабораторна робота №1</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+    </head>
+    <body>
+        <h4>Оберiть спорт</h4>
+		<button class='yui3-button', onclick="document.location.href='/automoto'" >Авто-мотоспорт</button>
+        <button class='yui3-button', onclick="document.location.href='/amerFootball')" >Американський футбол</button>
+        <button class='yui3-button', onclick="document.location.href='/basket')" >Баскетбол</button>
+        <button class='yui3-button', onclick="document.location.href='/volley')" >Волейбол</button>
+        <button class='yui3-button', onclick="document.location.href='/tennis')" >Тенiс</button>
+        <button class='yui3-button', onclick="document.location.href='/football')" >Футбол</button>
+        <button class='yui3-button', onclick="document.location.href='/footsal')" >Футзал</button>
+        <button class='yui3-button', onclick="document.location.href='/hockey')" >Хокей</button>
+        
+    </body>
+</html>
+
+
