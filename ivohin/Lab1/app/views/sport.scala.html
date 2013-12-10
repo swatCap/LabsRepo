@@ -11,8 +11,8 @@
     </head>
     <body>
 		<button class='yui3-button', onclick="document.location.href='/'" >Назад</button>
+		<button class='yui3-button', onclick="document.location.reload()" >Оновити</button>
 		
-		@content
-        
+		@Html(content)
     </body>
 </html>
