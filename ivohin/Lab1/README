@@ -1,4 +1,8 @@
-This is your new Play application
-=====================================
-
-This file will be packaged with your application, when using `play dist`.
+Инструкция по запуску на Windows
+1) Установить последнюю версию JDK&JRE
+2) Скачать http://downloads.typesafe.com/play/2.2.1/play-2.2.1.zip
+3) Распаковать скачанный архив в папку, где есть доступ для создания/удаления файлов (Например, "Мои документы")
+4) Создать глобальную системную переменную play (инструкция по их созданию http://www.howtogeek.com/51807/how-to-create-and-use-global-system-environment-variables/)
+5) Скачать с этого репозитория лабораторную
+6) В консоли в корне папки с лабораторной ввести команду "play run"
+7) На локалхосте на порту 9000(стоит по дефолту) будет доступен сайт с лабораторной
